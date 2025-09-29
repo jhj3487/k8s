@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "📘 쿠버네티스 개념 정리 (실습 전)"
 date: 2025-09-18 22:00:00 +0900
 categories: [Study, Kubernetes]
