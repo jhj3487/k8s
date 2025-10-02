@@ -1,9 +1,15 @@
 
 ---
 title: "🧪 쿠버네티스 기초 실습 (Pod, Deployment, Service)"
-date: 2025-10-02 11:00:00 +0900
-categories: [Study, Kubernetes]
-tags: [k8s, kubernetes, deployment, service]
+date: 2025-10-02 11:00:00 +09:00
+categories:
+  - Study
+  - Kubernetes
+tags:
+  - k8s
+  - kubernetes
+  - deployment
+  - service
 ---
 
 ---
