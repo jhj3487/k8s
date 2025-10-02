@@ -103,7 +103,7 @@ Service 정의 시 나오는 3가지 포트는 **역할이 다름**.
 ---
 
 ## 5. 리소스 생성
-### -f: 지정한 YAML/JSON 파일을 적용(리소스 생성/업데이트)
+**-f: 지정한 YAML/JSON 파일을 적용(리소스 생성/업데이트)**
 
 ```bash
 kubectl apply -f manifests/apa000dep.yml
@@ -115,14 +115,14 @@ kubectl apply -f manifests/apa000ser.yml
 ## 6. 상태 확인
 
 ### (1) 전체 리소스 확인
-### -o wide: 기본 출력보다 상세(노드, IP 등) 표시
+**-o wide: 기본 출력보다 상세(노드, IP 등) 표시**
 
 ```bash
 kubectl get deploy,rs,pod,svc -o wide
 ```
 
 ### (2) Service 상세 확인
-### describe: 리소스 상세 정보(셀렉터, 포트, 이벤트) 출력
+**describe: 리소스 상세 정보(셀렉터, 포트, 이벤트) 출력**
 
 ```bash
 kubectl describe svc apa000ser
@@ -134,7 +134,7 @@ kubectl describe svc apa000ser
 * **Ports**: `Port:80 → TargetPort:80, NodePort:30080`
 
 ### (3) Endpoints 확인
-### endpoints 리소스 확인 + wide 옵션으로 IP까지 상세히 표시
+**endpoints 리소스 확인 + wide 옵션으로 IP까지 상세히 표시**
 
 ```bash
 kubectl get endpoints apa000ser -o wide
@@ -161,7 +161,7 @@ curl -I http://<NodeIP>:30080/
 ```
 
 ### (B) 포트포워딩
-### 로컬 포트(8080) → 서비스 포트(80)로 트래픽 전달
+**로컬 포트(8080) → 서비스 포트(80)로 트래픽 전달**
 
 ```bash
 kubectl port-forward svc/apa000ser 8080:80
