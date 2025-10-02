@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apa000dep
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: apa000kube
+  template:
+    metadata:
+      labels:
+        app: apa000kube
+    spec:
+      containers:
+        - name: apa000ex91
+          image: httpd:2.4
+          ports:
+            - containerPort: 80
