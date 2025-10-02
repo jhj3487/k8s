@@ -12,7 +12,6 @@ tags:
   - service
 ---
 
----
 # 🧪 쿠버네티스 기초 실습 (Pod, Deployment, Service)
 
 > 이 문서는 **Pod, Deployment, Service(NodePort)** 실습을 통해  
