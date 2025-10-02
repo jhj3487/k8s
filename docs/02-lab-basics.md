@@ -1,9 +1,5 @@
 
 ---
-# 📄 최종본: `02-lab-basics.md`
-
-````markdown
----
 title: "🧪 쿠버네티스 기초 실습 (Pod, Deployment, Service)"
 date: 2025-10-02 11:00:00 +0900
 categories: [Study, Kubernetes]
