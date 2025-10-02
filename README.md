@@ -1,5 +1,4 @@
 ---
-title: "Kubernetes 기본 학습 정리 (2일차)"
 date: 2025-09-18 22:00:00 +0900
 categories: [Study, Kubernetes]
 tags: [docker, kubernetes, k8s, container, orchestration, study-note]
